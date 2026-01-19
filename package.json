@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postinstall": "npm rebuild lightningcss --update-binary || true",
     "start": "next start",
     "lint": "eslint"
   },
